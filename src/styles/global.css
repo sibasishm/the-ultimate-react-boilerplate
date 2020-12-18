@@ -41,18 +41,17 @@ Sections
 Remove the margin in all browsers.
 */
 
-body {
-	margin: 0;
-}
-
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 
 body {
+	margin: 0;
 	font-family: system-ui, -apple-system,
 		/* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto,
 		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /*
