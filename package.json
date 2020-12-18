@@ -6,7 +6,6 @@
 		"@emotion/react": "^11.1.2",
 		"@emotion/styled": "^11.0.0",
 		"history": "^5.0.0",
-		"normalize.css": "^8.0.1",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"react-error-boundary": "^3.1.0",
@@ -20,7 +19,6 @@
 		"@testing-library/jest-dom": "^5.11.6",
 		"@testing-library/react": "^11.2.2",
 		"@testing-library/user-event": "^12.6.0",
-		"jest": "^26.6.3",
 		"prettier": "^2.2.1"
 	},
 	"scripts": {

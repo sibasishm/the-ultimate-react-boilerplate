@@ -1,0 +1,134 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": true,
+	"editor.tabSize": 2,
+	"editor.rulers": [80],
+	"editor.snippetSuggestions": "top",
+	"editor.wordBasedSuggestions": false,
+	"editor.suggest.localityBonus": true,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.suggestSelection": "recentlyUsed",
+		"editor.suggest.showKeywords": false
+	},
+	"editor.renderWhitespace": "boundary",
+	"files.exclude": {
+		"USE_GITIGNORE": true
+	},
+	"files.defaultLanguage": "{activeEditorLanguage}",
+	"javascript.validate.enable": false,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/coverage": true,
+		"**/dist": true,
+		"**/build": true,
+		"**/.build": true,
+		"**/.gh-pages": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": false
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"eslint.options": {
+		"env": {
+			"browser": true,
+			"jest/globals": true,
+			"es6": true
+		},
+		"parserOptions": {
+			"ecmaVersion": 2019,
+			"sourceType": "module",
+			"ecmaFeatures": {
+				"jsx": true
+			}
+		},
+		"rules": {
+			"no-debugger": "off"
+		}
+	},
+	"workbench.colorTheme": "Overnight Slumber",
+	"workbench.iconTheme": "material-icon-theme",
+	"grunt.autoDetect": "off",
+	"gulp.autoDetect": "off",
+	"npm.runSilent": true,
+	"explorer.confirmDragAndDrop": false,
+	"editor.formatOnPaste": false,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.smoothScrolling": true,
+	"php.suggest.basic": false,
+	"window.zoomLevel": 0,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"html.autoClosingTags": false,
+	"git.ignoreMissingGitWarning": true,
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx",
+		"xml": {
+			"attr_quotes": "single"
+		}
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"editor.fontFamily": "Fira Code Retina",
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"breadcrumbs.enabled": false,
+	"editor.minimap.enabled": false,
+	"workbench.sideBar.location": "right",
+	"emmet.triggerExpansionOnTab": true,
+	"html-css-class-completion.enableEmmetSupport": true,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed",
+			"extensionName": ".min.css",
+			"savePath": "/styles"
+		}
+	],
+	"liveSassCompile.settings.generateMap": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"workbench.startupEditor": "newUntitledFile",
+	"prettier.useTabs": true,
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"launch": {},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"css.validate": false,
+	"stylelint.config": {
+		"rules": {
+			"at-rule-no-unknown": [
+				true,
+				{
+					"ignoreAtRules": [
+						"tailwind",
+						"apply",
+						"variants",
+						"responsive",
+						"screen"
+					]
+				}
+			],
+			"declaration-block-trailing-semicolon": null,
+			"no-descending-specificity": null
+		}
+	},
+	"liveServer.settings.CustomBrowser": "firefox",
+	"prettier.arrowParens": "avoid",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"prettier.proseWrap": "always"
+}
