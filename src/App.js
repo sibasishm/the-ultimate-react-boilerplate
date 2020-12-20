@@ -15,6 +15,8 @@ function App() {
 			<header>I am a header</header>
 			<main>
 				<h1>Hello World</h1>
+				<label htmlFor="name">Name</label>
+				<input type="text" name="name" id="name" />
 			</main>
 			<footer>I am a footer</footer>
 		</div>
