@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Motivation
+
+I have created enough react apps to know what works the best for me. Preferences keep changing and I will update this if some better combination comes up.
+
+## Choices
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+For styling, I went with [Emotion](https://emotion.sh/docs/install). I have never been a big fan of CSS-in-JS until I started using emotion with a CSS reset. However tailwindCSS still remains my current favorite for quickly styling any app.  
+
+For cache management, well, there is nothing like [react-query](https://react-query.tanstack.com/).
+
+Then some must-have-essentials like react-error-bounday and react-router-dom are also included.
+
+## Bootstrap
+
+I have made my own CSS reset inspired by [the one used in tailwindCSS](https://tailwindcss.com/docs/preflight).
+
+The folder structure is pretty straight-forward. It may not be the best but it works well for me.
 
 ## Available Scripts
 
